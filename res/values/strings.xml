@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="demo">برای دسترسی به این قسمت لطفا نسخه کامل را دانلود کنید.</string>
+
+    <string name="suggestionorcomplain">ارائه پیشنهاد یا انتقاد</string>
+	<string name="mabhas">مبحث </string>
+	<string name="chapter">فصل </string>
+	<string name="section">بخش </string>
+	<string name="made">ماده </string>
+	<string name="qa_string">سوالات متداول</string>
+	<string name="tabsare">تبصره </string>
+    <string-array name="nav_drawer_items">
+        <item>صفحه اصلی</item>
+        <item>تماس با ما</item>
+         <item>سوالات متداول</item>
+         <item>خروج</item>
+    </string-array>
+	<string name="gift_body">در صورتی که تعداد رای های 5 ستاره در بازار به این نرم افزار از 100 رای تجاوز کند، به عنوان هدیه ای دیگر 100 رای مشورتی در این زمینه را به نرم افزار اضافه می کنیم!  به دوستان خود نیز اعلام کنید تا هرچه سریعتر این هدیه ارزشمند به دست شما برسد.</string>
+    <string name="previous">قبلی</string>
+    <string name="next">بعدی</string>
+    <string name="app_name">قانون دادرسی کیفری و مجازات اسلامی (جدید)</string>
+
+    <!-- Arrays -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_contactus</item>
+        <item>@drawable/ic_quesions</item>
+        <item>@drawable/exit</item>
+    </array>
+    <array name="font_arrays">
+        <item>BNazanin</item>
+        <item>Yekan</item>
+        <item>Mitra</item>
+        <item>Entezar</item>
+        <item>Nasim</item>
+    </array>
+    <array name="type_search">
+        <item>همه</item>
+        <item>عنوان فصل ها</item>
+        <item>عنوان مباحث</item>
+        <item>شماره ماده ها</item>
+        <item>متن ماده ها</item>
+    </array>
+    <array name="book_type">
+        <item>کتاب اول-کلیات</item>
+        <item>کتاب دوم-حدود</item>
+        <item>کتاب سوم-قصاص</item>
+        <item>کتاب چهارم-دیات</item>
+        <item>کتاب پنجم-تعزیرات</item>
+    </array>
+    <array name="type_asli">
+        <item>قانون آیین دادرسی کیفری</item>
+        <item>قانون مجازات اسلامی</item>
+    </array>
+    <array name="exact_relative">
+        <item>دقیق</item>
+        <item>نسبی</item>
+    </array>
+
+    <string name="fonthead">نوع فونت را مشخص کنید</string>
+    <string name="typefonthead">نوع فونت عناوین  را مشخص کنید</string>
+    <string name="exit_confirm_msg">آیا میخواهید از برنامه خارج شوید؟</string>
+    <string name="no">خیر</string>
+    <string name="yes">بله</string>
+    <string name="typesearch">مفاد مورد جستجو:</string>
+    <string name="areasearch">ناحیه مورد جستجو:</string>
+    <string name="searchexact_relative">نوع جستجو:</string>
+    <string name="suggestion">پیشنهاد</string>
+    <string name="searchtext">کلمه مورد جستجو:</string>
+    <string name="typefontbody">نوع فونت متون  را مشخص کنید</string>
+    <string name="sizefonthead">اندازه فونت عناوین  را مشخص کنید</string>
+    <string name="sizefontbody">اندازه فونت متون  را مشخص کنید</string>
+    <string name="themetext">تم برنامه را مشخص کنید</string>
+    <string name="searchedit">جستجو در صفجه فعلی</string>
+    <string name="search_word">کلمه  را وارد کنید</string>
+    <string name="ok">تایید</string>
+    <string name="font">فونت</string>
+    <string name="searchhead">جستجو</string>
+    <string name="foundhead">نتایج جستجو</string>
+    <string name="theme">ظاهر</string>
+    <string name="type_asli">کتاب مورد جستجو:</string>
+	<string name="gift_title">با سلام و عرض خسته نباشید</string>
+	<string name="gift_title2">هدیه</string>
+	<string name="gift_body1">قبل از هرچیز بابت حمایت های مهربانانه شما کاربران عزیز نهایت تشکر و قدر دانی را داریم. خوشبختانه پس از درخواست های مکرر شما عزیزان کتاب پنجم قانون مجازات اسلامی به متن موجود اضافه شد.</string>
+	<string name="notshow">این پیام را دوباره نشان نده</string>
+	<string name="close">بستن</string>
+    <integer-array name="fontsizes">
+        <item>12</item>
+        <item>16</item>
+        <item>24</item>
+        <item>32</item>
+        <item>48</item>
+    </integer-array>
+
+    <array name="fontsizenames">
+        <item>خیلی کوچک</item>
+        <item>کوچک</item>
+        <item>متوسط</item>
+        <item>بزرگ</item>
+        <item>خیلی بزرگ</item>
+    </array>
+    <array name="themes">
+        <item>تم شماره یک</item>
+        <item>تم شماره دو</item>
+        <item>تم شماره سه</item>
+        <item>تم شماره چهار</item>
+        <item>تم شماره پنج</item>
+    </array>
+    <array name="colorheader">
+        <item>@color/colorheader0</item>
+        <item>@color/colorheader1</item>
+        <item>@color/colorheader2</item>
+        <item>@color/colorheader3</item>
+        <item>@color/colorheader4</item>
+    </array>
+    <array name="colornimheader">
+        <item>@color/colornimheader0</item>
+        <item>@color/colornimheader1</item>
+        <item>@color/colornimheader2</item>
+        <item>@color/colornimheader3</item>
+        <item>@color/colornimheader4</item>
+    </array>
+    <array name="colorbody">
+        <item>@color/colorbody0</item>
+        <item>@color/colorbody1</item>
+        <item>@color/colorbody2</item>
+        <item>@color/colorbody3</item>
+        <item>@color/colorbody4</item>
+    </array>
+
+    <string-array name="button">
+        <item>@drawable/buttonselector</item>
+        <item>@drawable/buttonselector2</item>
+        <item>@drawable/buttonselector3</item>
+        <item>@drawable/buttonselector4</item>
+        <item>@drawable/buttonselector5</item>
+    </string-array>
+    <string-array name="list1">
+        <item>@drawable/listselectorvo1</item>
+        <item>@drawable/listselectorvo2</item>
+        <item>@drawable/listselectorvo3</item>
+        <item>@drawable/listselectorvo4</item>
+        <item>@drawable/listselectorvo5</item>
+    </string-array>
+    <string-array name="list2">
+        <item>@drawable/listselectorvt1</item>
+        <item>@drawable/listselectorvt2</item>
+        <item>@drawable/listselectorvt3</item>
+        <item>@drawable/listselectorvt4</item>
+        <item>@drawable/listselectorvt5</item>
+    </string-array>
+
+    <color name="colorheader0">#BFBFB6</color>
+    <color name="colorheader1">#327DAE</color>
+    <color name="colorheader2">#4b9865</color>
+    <color name="colorheader3">#992416</color>
+    <color name="colorheader4">#5B5858</color>
+    <color name="colornimheader0">#FFFFFF</color>
+    <color name="colornimheader1">#D0EBFC</color>
+    <color name="colornimheader2">#e9ffd9</color>
+    <color name="colornimheader3">#CC776C</color>
+    <color name="colornimheader4">#797474</color>
+    <color name="colorbody0">#FFFFEE</color>
+    <color name="colorbody1">#bfe2f9</color>
+    <color name="colorbody2">#EEFFE3</color>
+    <color name="colorbody3">#E6B1AA</color>
+    <color name="colorbody4">#BCB8B8</color>
+
+</resources>

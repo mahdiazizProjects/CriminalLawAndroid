@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/list_background"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="15dp"
+    android:paddingTop="10dp" >
+
+    <widgets.PersianTextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/exit_confirm_msg"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black" />
+
+    <widgets.PersianButton
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msg"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/yes"
+        android:text="@string/no"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <widgets.PersianButton
+        android:id="@+id/yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msg"
+        android:layout_margin="5dp"
+        android:text="@string/yes"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/layout_search1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_search2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/section_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/section"
+            android:textDirection="rtl" />
+
+        <TextView
+            android:id="@+id/chapter_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/chapter"
+            android:textDirection="rtl" />
+
+        <ListView
+            android:id="@+id/listprinciples"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:choiceMode="singleChoice"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/list_selector"
+            android:textDirection="rtl" >
+        </ListView>
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/expLVsearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:visibility="gone" >
+    </ExpandableListView>
+
+</FrameLayout>

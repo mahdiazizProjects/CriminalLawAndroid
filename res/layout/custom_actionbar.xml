@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal" >
+
+        <ImageView
+            android:id="@+id/drawer_ico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_drawer" />
+
+        <ImageView
+            android:id="@+id/back_but"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/program_ico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/ico_prog" />
+
+        <widgets.PersianEditView
+            android:id="@+id/search_actionbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="@integer/texteditsize"
+            android:hint="@string/searchedit"
+            android:imeOptions="actionSearch"
+            android:inputType="textNoSuggestions"
+            android:textColor="@android:color/black"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/search_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_action_search"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</RelativeLayout>

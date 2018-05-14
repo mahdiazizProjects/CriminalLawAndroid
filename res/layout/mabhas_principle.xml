@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/section_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/section"
+        android:textDirection="rtl" />
+
+    <TextView
+        android:id="@+id/chapter_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingBottom="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/chapter"
+        android:textDirection="rtl" />
+
+    <ExpandableListView
+        android:id="@+id/expmabhas_priciple"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="15dp" >
+    </ExpandableListView>
+
+</LinearLayout>

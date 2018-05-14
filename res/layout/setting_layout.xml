@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <widgets.PersianTextView
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:background="@color/but_back_end"
+            android:paddingRight="20dp"
+            android:text="@string/font"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textDirection="rtl" />
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:entries="@array/font_arrays"
+                android:prompt="@string/fonthead" />
+
+            <widgets.PersianTextView
+                android:id="@+id/typefonthead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/typefonthead"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textDirection="rtl" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:entries="@array/font_arrays"
+                android:prompt="@string/fonthead" />
+
+            <widgets.PersianTextView
+                android:id="@+id/typefontbody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/typefontbody"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textDirection="rtl" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:entries="@array/fontsizenames"
+                android:prompt="@string/sizefonthead" />
+
+            <widgets.PersianTextView
+                android:id="@+id/sizefontheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/sizefonthead"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textDirection="rtl" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:entries="@array/fontsizenames"
+                android:prompt="@string/sizefontbody" />
+
+            <widgets.PersianTextView
+                android:id="@+id/sizefontbody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/sizefontbody"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textDirection="rtl" />
+        </RelativeLayout>
+
+        <widgets.PersianTextView
+            android:id="@+id/head2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@color/but_back_end"
+            android:paddingRight="20dp"
+            android:text="@string/theme"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textDirection="rtl" />
+
+        <RelativeLayout
+            android:id="@+id/r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:entries="@array/themes"
+                android:prompt="@string/themetext" />
+
+            <widgets.PersianTextView
+                android:id="@+id/theme1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/themetext"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textDirection="rtl" />
+        </RelativeLayout>
+
+        <widgets.PersianButton
+            android:id="@+id/Ok_Setting_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ok" />
+    </LinearLayout>
+
+</ScrollView>

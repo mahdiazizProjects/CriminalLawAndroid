@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/transparentdialog"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/transparent_background_only"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <widgets.PersianTextView
+                android:id="@+id/gift"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:paddingTop="30dp"
+                android:text="@string/gift_title"
+                android:textColor="@color/made"
+                android:textSize="30sp" />
+
+            <widgets.PersianTextView
+                android:id="@+id/changelistbody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:paddingTop="8dp"
+                android:text="@string/gift_body1"
+                android:textColor="@android:color/white"
+                android:textDirection="rtl"
+                android:textSize="24sp" />
+
+            <widgets.PersianTextView
+                android:id="@+id/WhatsNewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:text="@string/gift_title2"
+                android:textColor="@color/made"
+                android:textSize="30sp" />
+
+            <widgets.PersianTextView
+                android:id="@+id/body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:paddingTop="8dp"
+                android:text="@string/gift_body"
+                android:textColor="@android:color/white"
+                android:textDirection="rtl"
+                android:textSize="24sp" />
+
+            <widgets.PersianCheckbox
+                android:id="@+id/notshowagain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:paddingTop="8dp"
+                android:text="@string/notshow"
+                android:textSize="20sp" />
+
+            <widgets.PersianButton
+                android:id="@+id/closebut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"
+                android:shadowColor="#ff403f3b"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_brown_bg"
+                android:gravity="center_horizontal"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:text="@string/close"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

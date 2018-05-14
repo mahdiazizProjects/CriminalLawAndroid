@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="firstpage">#053a5c</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#333333</color>
+    <color name="background_splash">#053a5c</color>
+    <color name="list_background2">#f1f3f5</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="grid_background_pressed">#9eb5ff</color>
+    <color name="list_divider">#272727</color>
+    <color name="list_divider2">#c2c6c9</color>
+    <color name="made">#d9174e</color>
+    <color name="provision">#19921f</color>
+    <color name="section">#65140e</color>
+    <color name="chapter">#192292</color>
+    <color name="listdataitem">#170e03</color>
+    <color name="mabhas">#321104</color>
+    <color name="madebody">#340e19</color>
+    <color name="but_back">#4b9865</color>
+    <color name="but_back_end">#88bb99</color>
+    <color name="but_back_pressed">#65cf8a</color>
+    <color name="but_back_preseed_end">#b2f7c9</color>
+    <color name="made_color_back">#DFEFF0</color>
+    <color name="tabsare_color_back">#ECECEC</color>
+    <color name="gozine_color_back">#BDD8DA</color>
+    <color name="background_gridview">#45687f</color>
+    <color name="counter_text_color">#FFFFFF</color>
+    <color name="counter_text_bg">#626262</color>
+
+</resources>

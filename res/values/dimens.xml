@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="gridview_item">110dp</dimen>
+    <dimen name="gridview_itemh">130dp</dimen>
+    <dimen name="padding_principle_row">10dp</dimen>
+    <dimen name="padding_mabhas_row">5dp</dimen>
+    <dimen name="padding_fasl_row">5dp</dimen>
+    <dimen name="padding_section_row">5dp</dimen>
+    <dimen name="spinner_item_text_size">16sp</dimen>
+</resources>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame_container_search"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/layout_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <widgets.PersianTextView
+                    android:id="@+id/searchhead"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/but_back_end"
+                    android:paddingRight="20dp"
+                    android:text="@string/searchhead"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textDirection="rtl" />
+
+                <RelativeLayout
+                    android:id="@+id/exact_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" >
+
+                    <Spinner
+                        android:id="@+id/exactrelativespinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/exact_textview"
+                        android:entries="@array/exact_relative"
+                        android:prompt="@string/searchedit" />
+
+                    <widgets.PersianTextView
+                        android:id="@+id/exact_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:paddingBottom="5dp"
+                        android:text="@string/searchexact_relative"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textDirection="rtl" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/r1search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" >
+
+                    <Spinner
+                        android:id="@+id/spinnertype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/typeresearch_asli"
+                        android:entries="@array/type_asli"
+                        android:prompt="@string/searchedit" />
+
+                    <widgets.PersianTextView
+                        android:id="@+id/typeresearch_asli"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:paddingBottom="5dp"
+                        android:text="@string/typesearch"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textDirection="rtl" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/booklayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:visibility="gone" >
+
+                    <Spinner
+                        android:id="@+id/spinnerbook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/bookedittextview"
+                        android:entries="@array/book_type"
+                        android:prompt="@string/type_asli" />
+
+                    <widgets.PersianTextView
+                        android:id="@+id/bookedittextview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:paddingBottom="5dp"
+                        android:text="@string/type_asli"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textDirection="rtl" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/r2search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" >
+
+                    <Spinner
+                        android:id="@+id/spinnersearch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/typesearch"
+                        android:entries="@array/type_search"
+                        android:prompt="@string/searchedit" />
+
+                    <widgets.PersianTextView
+                        android:id="@+id/typesearch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:paddingBottom="5dp"
+                        android:text="@string/areasearch"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textDirection="rtl" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rsearch1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp" >
+
+                    <AutoCompleteTextView
+                        android:id="@+id/editsearch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/searchtext"
+                        android:hint="@string/search_word"
+                        android:imeOptions="actionSearch"
+                        android:maxEms="15"
+                        android:textDirection="rtl" />
+
+                    <widgets.PersianTextView
+                        android:id="@+id/searchtext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:paddingBottom="5dp"
+                        android:textColor="@android:color/black"
+                        android:text="@string/searchtext"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textDirection="rtl" />
+                </RelativeLayout>
+
+                <widgets.PersianButton
+                    android:id="@+id/Ok_search_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ok" />
+            </LinearLayout>
+        </ScrollView>
+
+        <widgets.PersianTextView
+            android:id="@+id/found_result_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:background="@color/but_back_end"
+            android:paddingBottom="5dp"
+            android:paddingRight="20dp"
+            android:text="@string/foundhead"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textDirection="rtl"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/foundlist"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:choiceMode="singleChoice"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/list_selector"
+            android:textDirection="rtl"
+            android:visibility="gone" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_search_small"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <widgets.PersianTextView
+            android:id="@+id/found_result_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:background="@color/but_back_end"
+            android:paddingBottom="5dp"
+            android:paddingRight="20dp"
+            android:text="@string/foundhead"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textDirection="rtl" />
+
+        <ListView
+            android:id="@+id/list_search_small"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:divider="@color/list_divider"
+            android:listSelector="@drawable/list_selector"
+            android:textDirection="rtl" >
+        </ListView>
+    </LinearLayout>
+
+</FrameLayout>

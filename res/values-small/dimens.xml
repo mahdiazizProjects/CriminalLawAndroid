@@ -1,0 +1,7 @@
+<resources>
+
+    <dimen name="gridview_item">90dp</dimen>
+    <dimen name="gridview_itemh">110dp</dimen>
+    <dimen name="spinner_item_text_size">14sp</dimen>
+    <dimen name="padding">5dp</dimen>
+</resources>

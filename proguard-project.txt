@@ -1,0 +1,3 @@
+-keep class javax.xml.stream.** { *; }
+-dontwarn org.jdom2.**
+
